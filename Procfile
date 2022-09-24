@@ -1,1 +1,1 @@
-worker : npm i ffmpeg && npm install && npm start
+worker : node . --session 'session.data.json'
